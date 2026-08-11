@@ -1,0 +1,7 @@
+ npx playwright test --project=chromium test --headed
+ npx playwright test --project=chromium --headed --debug  
+ npx playwright test --project=chromium --headed example.spec.js:4  
+ npx playwright codegen --browser chromium
+ npx playwright test --project=chromium --headed -g "has title" 
+ npx playwright show-report
+ 
